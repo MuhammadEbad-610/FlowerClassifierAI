@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FlowerClassifierAi</string>
+    <string name="discover_the_beauty_of_flowers_with_artificial_intelligence">Discover the beauty of flowers with Artificial Intelligence.</string>
+    <string name="flowLanding">🌸</string>
+    <string name="choose_flower_image">Choose Flower Image</string>
+    <string name="capture_flower">Capture Flower</string>
+</resources>
