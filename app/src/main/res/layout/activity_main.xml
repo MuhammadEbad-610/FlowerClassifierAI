@@ -2,69 +2,52 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F7F8F5"
     android:fillViewport="true">
 
     <LinearLayout
-        android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center_horizontal"
+        android:gravity="center"
         android:padding="24dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/flowLanding"
-            android:textSize="64sp"
-            android:layout_marginTop="55dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="FlowerClassifierAI"
-            android:textColor="#245C3A"
             android:textSize="28sp"
             android:textStyle="bold"
-            android:layout_marginTop="16dp" />
+            android:layout_marginBottom="12dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/discover_the_beauty_of_flowers_with_artificial_intelligence"
-            android:textColor="#666666"
+            android:text="Discover the beauty of flowers with AI. Select or capture a flower image to identify it."
             android:textSize="16sp"
             android:gravity="center"
-            android:layout_marginTop="12dp"
-            android:layout_marginBottom="40dp" />
+            android:layout_marginBottom="32dp" />
 
         <Button
             android:id="@+id/btnSelectImage"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:text="@string/choose_flower_image"
-            android:textAllCaps="false"
-            android:textSize="16sp"
-            android:backgroundTint="#347A50" />
+            android:layout_height="wrap_content"
+            android:text="Select Flower Image" />
 
         <Button
             android:id="@+id/btnCamera"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:text="@string/capture_flower"
-            android:textAllCaps="false"
-            android:textSize="16sp"
-            android:backgroundTint="#347A50"
+            android:layout_height="wrap_content"
+            android:text="Capture Flower"
             android:layout_marginTop="16dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Your flower discoveries start here."
-            android:textColor="#777777"
-            android:textSize="14sp"
-            android:layout_marginTop="45dp" />
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerInside"
+            android:contentDescription="Selected flower image"
+            android:visibility="gone" />
 
     </LinearLayout>
 
