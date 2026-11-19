@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         btnSelectImage.setOnClickListener {
             Toast.makeText(
                 this,
-                "Image selection will be implemented soon!",
+                "Image selection will be added soon!",
                 Toast.LENGTH_SHORT
             ).show()
         }
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         btnCamera.setOnClickListener {
             Toast.makeText(
                 this,
-                "Camera feature will be implemented soon!",
+                "Camera feature will be added soon!",
                 Toast.LENGTH_SHORT
             ).show()
         }
